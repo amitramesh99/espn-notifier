@@ -4,6 +4,8 @@ import requests
 import time
 from pprint import pprint
 
+# Notifications require the 'terminal-notifier' gem to be installed
+# https://github.com/julienXX/terminal-notifier
 
 def notify(title, subtitle, message):
     t = '-title {!r}'.format(title)
